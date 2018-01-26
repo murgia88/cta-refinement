@@ -14,13 +14,13 @@ instead of ./configure.
 For 64 bit architectures only, add the flag -fPIC to 
 export CFLAGS :=  -DBOOST_DISABLE_THREADS in the makefile.
 
-(b) Install Parglare (https://github.com/igordejanovic/parglare), running:
+(b) Install Parglare (https://github.com/igordejanovic/parglare):
 pip install parglare
 
-(c) Install Graphviz (https://www.graphviz.org/), running:
+(c) Install Graphviz (https://www.graphviz.org/):
 sudo apt-get install graphviz
 
-(d) Install graphviz (http://graphviz.readthedocs.io/en/stable/index.html), running:
+(d) Install graphviz (http://graphviz.readthedocs.io/en/stable/index.html):
 pip install graphviz
 
 
