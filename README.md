@@ -30,7 +30,7 @@ pip install graphviz
 The tool can be run with command: ./run.py <script_name>.
 Directory 'Examples' contains tests scripts described in the paper.
 
-(3) Script language
+(3) Scripting language
 -------------------
 
 The tool allows CTA creation, drawing and refinement checking
