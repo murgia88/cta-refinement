@@ -28,4 +28,36 @@ pip install graphviz
 --------------------
 
 The tool can be run with command: ./run.py <script_name>.
+Directory 'Examples' contains tests scripts described in the paper.
+
+(3) Script language
+-------------------
+
+The tool allows CTA creation, drawing and refinement checking
+through a simple scripting language.
+CTA are created, for instance:
+
+Cta U = {
+Init u0;
+u0 UW!task(x < 10,{x}) u1;
+u1 AU?result(x <= 200) u2; 
+};
+
+U is the CTA name,
+Init u0 marks u0 as the initial states.
+The remaining lines defines edges.
+States are automatically inferred.
+Guards can be omitted when True. Similarly,
+an omitted reset sets is interpreted as the empty reset set.
+
+CTAs can be drawed with:
+
+Show(U);
+
+Refinement checking is performed with:
+
+U1 refines? U2;
+
+The full grammar of the language is in file 'grammar'
+
 # cta-refinement
