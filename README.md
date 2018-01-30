@@ -37,11 +37,13 @@ The tool allows CTA creation, drawing and refinement checking
 through a simple scripting language.
 CTA are created, for instance:
 
+```
 Cta U = {
 Init u0;
 u0 UW!task(x < 10,{x}) u1;
 u1 AU?result(x <= 200) u2; 
 };
+```
 
 U is the CTA name,
 Init u0 marks u0 as the initial states.
@@ -52,11 +54,15 @@ an omitted reset sets is interpreted as the empty reset set.
 
 CTAs can be drawed with:
 
+```
 Show(U);
+```
 
 Refinement checking is performed with:
 
+```
 U1 refines? U2;
+```
 
 The full grammar of the language is in file 'grammar'
 
