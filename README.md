@@ -45,7 +45,7 @@ u1 AU?result(x <= 200) u2;
 ```
 
 U is the CTA name,
-Init u0 marks u0 as the initial states.
+Init u0 marks u0 as the initial state.
 The remaining lines defines edges.
 States are automatically inferred.
 Guards can be omitted when True. Similarly,
