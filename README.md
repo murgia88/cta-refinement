@@ -1,5 +1,4 @@
-This tool implements the theory of "Compositional asynchronous timed refinement"
-by Massimo Bartoletti, Laura Bocchi and Maurizio Murgia.
+This tool implements the theory of "Compositional asynchronous timed refinement".
 
 (1) Installation instructions (Ubuntu only)
 -------------------------------------------
