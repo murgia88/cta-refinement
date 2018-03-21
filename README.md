@@ -68,6 +68,6 @@ The full grammar of the language is in file 'grammar'.
 (4) Benchmarking
 ----------------
 
-We provide a small utility for generating arbitrarily large CTAs. It can be run with command: /TestGen.py <number_of_states> <number_of_clocks>.
+We provide a small utility for generating arbitrarily large CTAs. It can be run with command: ./TestGen.py <number_of_states> <number_of_clocks>.
 The output will be in file "test" and can be given in input to run.py.
 # cta-refinement
