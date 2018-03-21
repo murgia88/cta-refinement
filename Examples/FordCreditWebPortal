@@ -16,6 +16,8 @@ creditApplication SC!reject applicationRejected;
 creditApplication SC!accept creditAccepted;
 };
 
+Show(A);
+
 Cta A1 = {
 Init start;
 start CS?login logged;

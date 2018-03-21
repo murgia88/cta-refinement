@@ -30,7 +30,7 @@ The tool can be run with command: ./run.py <script_name>.
 Directory 'Examples' contains tests scripts described in the paper.
 
 (3) Scripting language
--------------------
+----------------------
 
 The tool allows CTA creation, drawing and refinement checking
 through a simple scripting language.
@@ -63,6 +63,11 @@ Refinement checking is performed with:
 U1 refines? U2;
 ```
 
-The full grammar of the language is in file 'grammar'
+The full grammar of the language is in file 'grammar'.
 
+(4) Benchmarking
+----------------
+
+We provide a small utility for generating arbitrarily large CTAs. It can be run with command: /TestGen.py <number_of_states> <number_of_clocks>.
+The output will be in file "test" and can be given in input to run.py.
 # cta-refinement
